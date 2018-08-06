@@ -44,7 +44,7 @@
       getImageLightness (image, onLoad, onError) {
         let canvas = document.createElement('canvas')
 
-        image.crossOrigin = 'Anonymous'
+        // image.crossOrigin = 'Anonymous'
 
         image.onload = function () {
           let colorSum = 0
